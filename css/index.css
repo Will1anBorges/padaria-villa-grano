@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Sansita+Swashed&display=swap');
+
+body {
+    margin: auto;
+    font-size: 100%;
+    background: linear-gradient(100.0deg, #311801 8%,#a3540e 85%)}
+
+.logo-cabecalho {
+    height: 150px; 
+    width: 150px; 
+    margin: 0px;}
+
+.logo-rodape {
+    height: 150px; 
+    width: 150px; 
+    margin: 0px;}
+    
+
+.cardapio img {
+    border-radius: 80px;
+    width: 380px;
+    height: 280px;
+    padding: 5px;}
+
+.cardapio {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;}
+
+.item1 h1 {
+    font-size: 24px; 
+    font-family: 'Sansita Swashed', cursive; 
+    margin-top: 5px;
+    color: wheat;}
+
+.item1 h2 {
+    font-size: 35px; 
+    font-family: 'Sansita Swashed', cursive; 
+    margin-top: 5px;}
+    
+
+.item1 {
+    background-color: rgba(34, 33, 33, 0.5); 
+    border-radius: 80px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(247, 166, 86);}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #640707;
+    margin: 0px;
+    border-bottom: #3d0404 solid 3px;}
+    
+.cabecalho-menu {
+    display: flex; gap:100px;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;}
+    
+.produtos {
+    text-decoration: none; 
+    color: white;
+    transition: all 0.4s ease-in;} 
+
+.produtos:hover {
+    text-decoration: none; 
+    color: #fa6767; 
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);}
+
+.sobre {
+    text-decoration: none; 
+    color: white;
+    transition: all 0.4s ease-in;}
+
+.sobre:hover {
+    text-decoration: none; 
+    color: #fa6767; 
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);} 
+
+.item1 button{   
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    background-color: rgb(233, 38, 13);
+    box-shadow: 0px 5px 0px rgb(160, 19, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 300px;}
+
+.btn:hover {
+    background-color:rgb(255, 0, 76);
+    box-shadow: 0 5px 0 rgb(146, 0, 44);
+    transition: 0.4s;}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;}
+
+p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 14px;
+    color:rgb(247, 166, 86);}
+
+.titulo {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: rgb(247, 166, 86);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 40px;}
+
+.p-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+.cozinheiro {
+    height: 350px;
+    padding: 60px;
+    border: none;
+    border-radius: 500px;}
+
+.p-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;}
+    
+.cafeteria {
+    height: 300px;
+    padding: 60px;
+    border: none;
+    border-radius: 100px;}
+    
+.apresentaçao {
+    font-family: 'Sansita Swashed', cursive;
+    padding-right: 60px;
+    color: wheat;
+    text-align: justify;
+    font-size: 24px;}
+
+.descriçao-final {
+    font-family: 'Sansita Swashed', cursive;
+    padding-left:40px;
+    color: wheat;
+    text-align: justify;
+    font-size: 22px;}
+
+.back-rodape {
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #640707;
+    margin: 0px;
+    border-top: #3d0404 solid 3px;}
+
+.logo-whats {
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 10px;}
+
+.logo-email {
+    width: 45px;
+    padding-left: 5px;
+    padding-right: 10px;}
+
+.p-rodape {
+    color: white;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;}
+
+.contato1 {display: flex;}
+
+.btn-contato1 {
+    padding-left: 15px;
+    text-decoration: none; 
+    color: white;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    display: flex; 
+    align-items:center;}
+
+.btn-contato1:hover {
+    text-decoration: none; 
+    color: #fa6767; 
+    transition: .6s;}
+
+.contato2 {
+    display: flex;
+    padding-left: 20px;}
+
+.btn-contato2 {
+    padding-left: 15px;
+    text-decoration: none; 
+    color: white;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    display: flex; 
+    align-items:center;}
+    
+.btn-contato2:hover {
+    text-decoration: none; 
+    color: #fa6767; 
+    transition: .6s;}
+

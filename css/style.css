@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Serif:ital,wght@1,200&display=swap');
+
+body{margin: 0%;}
+
+.cafeteria {
+    width: 1167px;
+    height: 757px;
+    float: left;}
+
+.foto2 {
+    width: 1167px;
+    height: 757px;
+    float: left;}
+
+.foto3 {
+    width: 1167px;
+    height: 757px;
+    float: left;}
+
+.foto4 {
+    width: 1167px;
+    height: 757px;
+    float: left;}
+
+.carrosel{
+    display: block;
+    position: fixed; 
+    width:1167px;
+    height:757px;
+    overflow:hidden;}
+
+.content {
+    height:757px;
+    width:4668px;
+    overflow:hidden;
+    position:relative;
+    animation: swipe 20s ease-in-out 0s infinite ;}
+
+@keyframes swipe {
+    0% {left:0px;}
+    18% {left:0px;}
+        
+    24% {left:-1167px;}
+    42% {left:-1167px;}
+        
+    48% {left:-2334px;}
+    66% {left:-2334px;}
+        
+    72% {left:-3501px;}
+    94% {left:-3501px;}
+        
+    100%{left:0px;}}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0%;
+    height: 100%;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(57deg, #311801 8%,#a3540e 85%)}
+
+.conteudo {
+    margin: 0 auto;
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.box {
+    display: block;
+    width: 100%;}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20px;}
+
+.user{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;}
+
+.password{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 10px;}
+
+.campos{
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0px 12px;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    color: rgb(90, 41, 0);}
+
+.autenticate{padding-top: 25px;}
+
+.botao{
+    text-decoration: none;
+    height: 36px;
+    width: 272px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.botao:hover{
+    background-color: rgb(151, 14, 14);
+    transition: 0.3s;}
+
+.material-icons {padding-right: 5px;}
+
+p{
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 232, 21);
+    font-size: 24px;
+    font-family: 'Lobster', cursive;}
