@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
     margin: auto;
@@ -51,6 +52,24 @@ body {
     text-align: center;
     color: rgb(247, 166, 86);}
 
+.fotos{
+    transition: all 0.6s ease-in;
+    cursor: pointer}
+
+.fotos:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);} 
+    
+.imagens{transition: all 0.6s ease-in;}
+
+.imagens:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);}
+
 
 .cabecalho {
     display: flex;
@@ -69,28 +88,28 @@ body {
 .produtos {
     text-decoration: none; 
     color: white;
-    transition: all 0.4s ease-in;} 
+    transition: all 0.3s ease-in;} 
 
 .produtos:hover {
     text-decoration: none; 
     color: #fa6767; 
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);}
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);}
 
 .sobre {
     text-decoration: none; 
     color: white;
-    transition: all 0.4s ease-in;}
+    transition: all 0.3s ease-in;}
 
 .sobre:hover {
     text-decoration: none; 
     color: #fa6767; 
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);} 
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);} 
 
 .item1 button{   
     padding: 10px;
@@ -189,7 +208,9 @@ p {
     font-size: 24px;
     font-family: 'Anton', sans-serif;}
 
-.contato1 {display: flex;}
+.contato1 {
+    display: flex;
+    align-items: center;}
 
 .btn-contato1 {
     padding-left: 15px;
@@ -223,3 +244,7 @@ p {
     color: #fa6767; 
     transition: .6s;}
 
+.material-icons{
+    transform: scale(1.6);
+    padding-right: 10px;
+    padding-left: 5px;}
